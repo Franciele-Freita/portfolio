@@ -12,37 +12,37 @@ export default function Home() {
             <img src="/img/logo.svg" alt="" />
             <h1 className="font-bold text-2xl leading-none">Franciele <br />Freita</h1>
           </div>
-            <div className="relative inline-block text-left  xl:hidden">
-              <button
-                onClick={() => setIsOpen(!isOpen)}
-                className=""
-              >
-                <Image src={"/img/menu.svg"} width={32} height={32} alt="logo Rodrigo Guedes" />
-              </button>
+          <div className="relative inline-block text-left  xl:hidden">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className=""
+            >
+              <Image src={"/img/menu.svg"} width={32} height={32} alt="logo Rodrigo Guedes" />
+            </button>
 
 
-              {isOpen && (
-                <div className="absolute right-0 mt-2 w-60 bg-[#1A0A3B] rounded-md shadow-lg ring-1 ring-black ring-opacity-5">
-                  <div className="p-4">
-                    <nav>
-                      <ul className="flex flex-col gap-4 text-background font-semibold">
-                        <li className="hover:scale-105 transition"><a href="/#why-me" className="px-4 py-2 bg-pink  rounded-full w-full flex items-center justify-center">Porque me escolher</a></li>
-                        <li className="hover:scale-105 transition"><a href="/#projects" className="px-4 py-2 bg-orange rounded-full w-full flex items-center justify-center">Meus Projetos</a></li>
-                        <li className="hover:scale-105 transition"><a href="/#about-me" className="px-4 py-2 bg-blue rounded-full w-full flex items-center justify-center">Sobre Mim</a></li>
-                      </ul>
-                    </nav>
+            {isOpen && (
+              <div className="absolute right-0 mt-2 w-60 bg-[#1A0A3B] rounded-md shadow-lg ring-1 ring-black ring-opacity-5">
+                <div className="p-4">
+                  <nav>
+                    <ul className="flex flex-col gap-4 text-background font-semibold">
+                      <li className="hover:scale-105 transition"><a href="/#why-me" className="px-4 py-2 bg-pink  rounded-full w-full flex items-center justify-center">Porque me escolher</a></li>
+                      <li className="hover:scale-105 transition"><a href="/#projects" className="px-4 py-2 bg-orange rounded-full w-full flex items-center justify-center">Meus Projetos</a></li>
+                      <li className="hover:scale-105 transition"><a href="/#about-me" className="px-4 py-2 bg-blue rounded-full w-full flex items-center justify-center">Sobre Mim</a></li>
+                    </ul>
+                  </nav>
 
-                  </div>
                 </div>
-              )}
-            </div>
-            <nav className="hidden xl:block">
-              <ul className="flex flex-row items-center gap-4 text-background font-semibold">
-                <li className="hover:scale-105 transition"><a href="/#why-me" className="px-4 py-2 bg-pink  rounded-full ">Porque me escolher</a></li>
-                <li className="hover:scale-105 transition"><a href="/#projects" className="px-4 py-2 bg-orange rounded-full">Meus Projetos</a></li>
-                <li className="hover:scale-105 transition"><a href="/#about-me" className="px-4 py-2 bg-blue rounded-full">Sobre Mim</a></li>
-              </ul>
-            </nav>
+              </div>
+            )}
+          </div>
+          <nav className="hidden xl:block">
+            <ul className="flex flex-row items-center gap-4 text-background font-semibold">
+              <li className="hover:scale-105 transition"><a href="/#why-me" className="px-4 py-2 bg-pink  rounded-full ">Porque me escolher</a></li>
+              <li className="hover:scale-105 transition"><a href="/#projects" className="px-4 py-2 bg-orange rounded-full">Meus Projetos</a></li>
+              <li className="hover:scale-105 transition"><a href="/#about-me" className="px-4 py-2 bg-blue rounded-full">Sobre Mim</a></li>
+            </ul>
+          </nav>
 
         </div>
       </div>
@@ -85,18 +85,33 @@ export default function Home() {
       <div id="projects" className="container mx-auto py-16">
         <h2 className="text-4xl font-semibold mb-8 text-center">Meus Projetos</h2>
         <div className="w-2/3 xl:w-2/3 md:w-full mx-auto grid md:grid-cols-2 lg:grid-cols-3  gap-8">
-          
-          <div className="w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple">
+
+          <div className="relative group hover:scale-110 transition w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple text-center">
+            <div className="absolute w-full group-hover:bg-black/60 transition h-full flex flex-col items-center justify-center">
+              <p className="text-lg font-bold hidden group-hover:block">Landing Page + Convite Interativo</p>
+              <p className="text-sm hidden group-hover:block">Projeto particular</p>
+              <a href="https://janduy-e-rafael.vercel.app" className="border border-white px-2 py-1 rounded-full mt-4 text-sm hidden group-hover:block hover:bg-white hover:text-background font-semibold transition">Visualizar</a>
+            </div>
             <img src="/img/project01.png" alt="" />
           </div>
-          <div className="w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple">
-          <img src="/img/project02.png" alt="" />
+          <div className="relative group hover:scale-110 transition w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple text-center">
+            <div className="absolute w-full group-hover:bg-black/60 transition h-full flex flex-col items-center justify-center">
+              <p className="text-lg font-bold hidden group-hover:block">Landing Page</p>
+              <p className="text-sm hidden group-hover:block">Projeto particular</p>
+              <a href="https://www.rodrigoguedes.vercel.app" className="border border-white px-2 py-1 rounded-full mt-4 text-sm hidden group-hover:block hover:bg-white hover:text-background font-semibold transition">Visualizar</a>
+            </div>
+            <img src="/img/project02.png" alt="" />
           </div>
-          <div className="w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple">
-          <img src="/img/project04.png" alt="" />
+          <div className="relative group hover:scale-110 transition w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple text-center">
+            <div className="absolute w-full group-hover:bg-black/60 transition h-full flex flex-col items-center justify-center">
+              <p className="text-lg font-bold hidden group-hover:block">Site e Aplicativo Web</p>
+              <p className="text-sm hidden group-hover:block">Projeto particular</p>
+              <p className="text-sm hidden group-hover:block">Em contrução</p>
+            </div>
+            <img src="/img/project04.png" alt="" />
           </div>
-         
-          
+
+
         </div>
       </div>
       <div id="about-me" className="container mx-auto py-16 flex flex-col gap-8 xl:flex-row items-center justify-between">
