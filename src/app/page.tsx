@@ -89,7 +89,6 @@ export default function Home() {
           <div className="relative group hover:scale-110 transition w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple text-center">
             <div className="absolute w-full group-hover:bg-black/60 transition h-full flex flex-col items-center justify-center">
               <p className="text-lg font-bold hidden group-hover:block">Landing Page + Convite Interativo</p>
-              <p className="text-sm hidden group-hover:block">Projeto particular</p>
               <a target="_blank" href="https://janduy-e-rafael.vercel.app" className="border border-white px-2 py-1 rounded-full mt-4 text-sm hidden group-hover:block hover:bg-white hover:text-background font-semibold transition">Visualizar</a>
             </div>
             <img src="/img/project01.png" alt="" />
@@ -97,7 +96,6 @@ export default function Home() {
           <div className="relative group hover:scale-110 transition w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple text-center">
             <div className="absolute w-full group-hover:bg-black/60 transition h-full flex flex-col items-center justify-center">
               <p className="text-lg font-bold hidden group-hover:block">Landing Page</p>
-              <p className="text-sm hidden group-hover:block">Projeto particular</p>
               <a target="_blank" href="https://www.rodrigoguedes.vercel.app" className="border border-white px-2 py-1 rounded-full mt-4 text-sm hidden group-hover:block hover:bg-white hover:text-background font-semibold transition">Visualizar</a>
             </div>
             <img src="/img/project02.png" alt="" />
@@ -105,7 +103,6 @@ export default function Home() {
           <div className="relative group hover:scale-110 transition w-full aspect-square bg-purple rounded-lg overflow-hidden pt-4 border border-purple text-center">
             <div className="absolute w-full group-hover:bg-black/60 transition h-full flex flex-col items-center justify-center">
               <p className="text-lg font-bold hidden group-hover:block">Site e Aplicativo Web</p>
-              <p className="text-sm hidden group-hover:block">Projeto particular</p>
               <p className="text-sm hidden group-hover:block">Em contrução</p>
             </div>
             <img src="/img/project04.png" alt="" />
