@@ -22,7 +22,7 @@ export default function DigitalBusinessCard() {
             </div>
             <nav className="mb-4">
               <ul className="flex flex-row items-center justify-center gap-4 text-background font-semibold">
-                <li className="hover:scale-105 transition"><a href="https://wa.me/+5527992495299?text=Olá, Oi, recebi seu cartão visita e gostaria de saber mais sobre seus serviços." className="flex  items-center justify-center aspect-square px-4 py-4 bg-pink rounded-full"><img src="/img/logo-whatsapp.svg" alt="" className="w-10" /></a></li>
+                <li className="hover:scale-105 transition"><a href="https://wa.me/+5527995330712?text=Olá, recebi seu cartão visita e gostaria de saber mais sobre seus serviços." className="flex  items-center justify-center aspect-square px-4 py-4 bg-pink rounded-full"><img src="/img/logo-whatsapp.svg" alt="" className="w-10" /></a></li>
                 <li className="hover:scale-105 transition"><a href="mailto:franciele_freita@hotmail.com" className="flex  items-center justify-center aspect-square px-4 py-4 bg-orange rounded-full"><img src="/img/mail-outline.svg" alt="" className="w-10" /></a></li>
 
               </ul>
