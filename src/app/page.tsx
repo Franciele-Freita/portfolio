@@ -17,7 +17,7 @@ export default function Home() {
               onClick={() => setIsOpen(!isOpen)}
               className=""
             >
-              <Image src={"/img/menu.svg"} width={32} height={32} alt="logo Rodrigo Guedes" />
+              <Image src={"/img/menu.svg"} width={32} height={32} alt="logo" />
             </button>
 
 
@@ -52,7 +52,7 @@ export default function Home() {
             <div className="xl:w-3/5 mx-auto flex flex-col gap-10">
               <h1 className="text-6xl font-extrabold">Criando Experiências Digitais</h1>
               <p className="text-xl text-offwhite">Transformo ideias em interfaces funcionais, modernas e responsivas. Com foco em desempenho, design e usabilidade, desenvolvo soluções web que conectam marcas e pessoas de forma intuitiva e eficiente.</p>
-              <a href="" className="w-fit mx-auto px-4 py-2 bg-orange rounded-full text-background font-semibold hover:scale-105 transition">Desenvolva sua página comigo</a>
+              <a href="https://wa.me/+5527995330712?text=Olá, quero criar uma Pagina Web, pode me ajudar?" className="w-fit mx-auto px-4 py-2 bg-orange rounded-full text-background font-semibold hover:scale-105 transition">Desenvolva sua página comigo</a>
             </div>
           </div>
         </div>
