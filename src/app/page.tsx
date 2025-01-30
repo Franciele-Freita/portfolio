@@ -153,8 +153,8 @@ export default function Home() {
           </div>
           <nav>
             <ul className="flex flex-row items-center gap-4 text-background font-semibold">
-              <li className="hover:scale-105 transition"><a href="" className="flex  items-center justify-center aspect-square px-2 py-2 bg-pink rounded-full"><img src="/img/logo-whatsapp.svg" alt="" /></a></li>
-              <li className="hover:scale-105 transition"><a href="" className="flex  items-center justify-center aspect-square px-2 py-2 bg-orange rounded-full"><img src="/img/mail-outline.svg" alt="" /></a></li>
+              <li className="hover:scale-105 transition"><a href="https://wa.me/+5527992495299?text=Olá, Oi, vi seu portfólio e gostaria de saber mais sobre seus serviços." className="flex  items-center justify-center aspect-square px-2 py-2 bg-pink rounded-full"><img src="/img/logo-whatsapp.svg" alt="" /></a></li>
+              <li className="hover:scale-105 transition"><a href="mailto:franciele_freita@hotmail.com" className="flex  items-center justify-center aspect-square px-2 py-2 bg-orange rounded-full"><img src="/img/mail-outline.svg" alt="" /></a></li>
 
             </ul>
           </nav>
