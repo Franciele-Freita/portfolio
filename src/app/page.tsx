@@ -51,15 +51,15 @@ export default function Home() {
         <div>
           <div className="container mx-auto text-center">
             <div className="xl:w-3/5 mx-auto flex flex-col gap-10">
-              <h1 className="text-6xl font-extrabold">Criando Experiências Digitais</h1>
-              <p className="text-xl text-offwhite">Transformo ideias em interfaces funcionais, modernas e responsivas. Com foco em desempenho, design e usabilidade, desenvolvo soluções web que conectam marcas e pessoas de forma intuitiva e eficiente.</p>
+              <h1 className="text-5xl md:text-6xl font-extrabold">Criando Experiências Digitais</h1>
+              <p className="text-md md:text-xl text-offwhite">Transformo ideias em interfaces funcionais, modernas e responsivas. Com foco em desempenho, design e usabilidade, desenvolvo soluções web que conectam marcas e pessoas de forma intuitiva e eficiente.</p>
               <a href="https://wa.me/+5527995330712?text=Olá, quero criar uma Pagina Web, pode me ajudar?" className="w-fit mx-auto px-4 py-2 bg-orange rounded-full text-background font-semibold hover:scale-105 transition">Desenvolva sua página comigo</a>
             </div>
           </div>
         </div>
         <div className="mt-16 xl:py-16">
           <div className="container mx-auto flex flex-col items-center justify-center bg-[url('/img/banner-img.png')] bg-cover bg-center text-center p-16 rounded-lg">
-            <h1 className="text-6xl font-extrabold xl:w-1/2  text-shadow-background">Transforme suas ideias em soluções digitais inovadoras!</h1>
+            <h1 className="text-4xl md:text-6xl font-extrabold xl:w-1/2  text-shadow-background">Transforme suas ideias em soluções digitais inovadoras!</h1>
           </div>
         </div>
       </div>

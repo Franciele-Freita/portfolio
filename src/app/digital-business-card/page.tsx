@@ -1,7 +1,7 @@
 export default function DigitalBusinessCard() {
   return (
     <div className="bg-[#1A0A3B] w-full min-h-screen p-4">
-      <div className="min-w-96 max-w-md bg-background mx-auto rounded-lg overflow-hidden flex flex-col" style={{ height: 'calc(100vh - 32px)' }}>
+      <div className="container sm:min-w-96 max-w-md bg-background mx-auto rounded-lg overflow-hidden flex flex-col items-center" style={{ height: 'calc(100vh - 32px)' }}>
        
           <div className="pt-8 px-32 bg-[url('/img/banner-img.png')] bg-cover bg-center">
             <div className="h-[95px] w-full"></div>
@@ -17,7 +17,7 @@ export default function DigitalBusinessCard() {
           <div className=" px-4 text-center pb-8   flex flex-col flex-1 justify-around">
             <div className="mb-4 flex flex-col items-center">
             <img src="/img/logo.svg" alt="" className="w-16 mb-2" />
-              <h3 className="font-extrabold leading-none text-5xl">FRANCIELE<br /> FREITA</h3>
+              <h3 className="font-extrabold leading-none md:text-5xl">FRANCIELE<br /> FREITA</h3>
               <p className="text-sm text-offwhite">Web Developer</p>
             </div>
             <nav className="mb-4">
